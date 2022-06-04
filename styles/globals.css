@@ -32,3 +32,50 @@ a {
       filter: hue-rotate(360deg);
   }
 }
+
+.navbar-expand-md .navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-expand-md .navbar-nav .nav-item{
+  margin: 0 5px;
+}
+
+.social-1{
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s infinite linear;
+}
+.social-2{
+  color: #f3bc26;
+  background-image: -webkit-linear-gradient(92deg, #feab3a, #fbfe3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s infinite linear;
+}
+.social-3{
+  color: #26f334;
+  background-image: -webkit-linear-gradient(92deg, #26f334, #10cade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s infinite linear;
+}
+.social-4{
+  color: #2667f3;
+  background-image: -webkit-linear-gradient(92deg, #2667f3, #fb3afe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}

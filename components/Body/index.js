@@ -1,17 +1,18 @@
 import React from "react";
+import ProfileComponent from "../Profile";
 
 export default function BodyComponent() {
   return (
     <React.Fragment>
+      <ProfileComponent />
       <section className="section section-sm container-fluid">
         <div className="row justify-content-center">
           <div className="col-lg-10 mb-4">
             <p>
-              <a href="/blog/">blog</a> &nbsp;
-              <a href="https://twitter.com/pathu0704">twitter</a> &nbsp;
-              <a href="https://github.com/p-prathamesh">github</a> &nbsp;
-              <a href="https://www.linkedin.com/in/prathamesh-pawar-ab3341119/">linkedin</a> &nbsp;
-              <a href="https://www.instagram.com/technodiscussion/">instagram</a> &nbsp;
+              <a className="social-1" href="https://twitter.com/pathu0704">Twitter</a> &nbsp;
+              <a className="social-2" href="https://github.com/p-prathamesh">Github</a> &nbsp;
+              <a className="social-3" href="https://www.linkedin.com/in/prathamesh-pawar-ab3341119/">LinkedIn</a> &nbsp;
+              <a className="social-4" href="https://www.instagram.com/technodiscussion/">Instagram</a> &nbsp;
             </p>
 
             <p>

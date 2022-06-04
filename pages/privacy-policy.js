@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Prathamesh Pawar</title>
+        <title>Privacy Policy-Prathamesh Pawar</title>
         <meta name="description" content="Personal website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

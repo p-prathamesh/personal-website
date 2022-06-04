@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styles from "./Header.module.css";
 
@@ -8,12 +9,15 @@ export default function index() {
         className={`navbar ${styles.header} fixed-top navbar-expand-md navbar-light`}
       >
         <div className="container">
-          <a
+          <Link
             className={`${styles.navbarBrand} order-1 order-md-0 me-auto`}
-            href="#"
+            href="/"
           >
-            Prathamesh Pawar
-          </a>
+            <a className={`${styles.navbarBrand} order-1 order-md-0 me-auto`}>
+              Prathamesh Pawar
+            </a>
+          </Link>
+
           <ul className="navbar-nav fork-me order-3 order-md-5">
             <li className="nav-item">
               <a
