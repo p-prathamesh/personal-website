@@ -1,3 +1,4 @@
+import React from 'react';
 import BodyComponent from '../components/Body';
 import FooterComponent from '../components/Footer';
 import HeaderComponent from '../components/Header';

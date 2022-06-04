@@ -3,9 +3,9 @@ import React from "react";
 export default function BodyComponent() {
   return (
     <React.Fragment>
-      <section class="section section-sm container-fluid">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 mb-4">
+      <section className="section section-sm container-fluid">
+        <div className="row justify-content-center">
+          <div className="col-lg-10 mb-4">
             <p>
               <a href="/blog/">blog</a> &nbsp;
               <a href="https://twitter.com/pathu0704">twitter</a> &nbsp;

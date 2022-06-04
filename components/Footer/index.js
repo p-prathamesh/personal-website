@@ -12,14 +12,15 @@ export default function FooterComponent() {
                 <li className="list-inline-item">
                   Powered by{" "}
                   <a
-                    rel="nofollow"
+                    rel="noreferrer"
+                    
                     target="_blank"
                     href="https://www.netlify.com/"
                   >
                     Netlify
                   </a>{" "}
                   and{" "}
-                  <a rel="nofollow" target="_blank" href="https://nextjs.org/">
+                  <a rel="noreferrer" target="_blank" href="https://nextjs.org/">
                     Next.js
                   </a>
                 </li>
