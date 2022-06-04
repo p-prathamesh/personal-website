@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head'
-import BodyComponent from '../components/Body';
+import BodyComponent from '../components/Privacy';
 import FooterComponent from '../components/Footer';
 import HeaderComponent from '../components/Header';
 import HeaderAnimationComponent from '../components/HeaderAnimation';
