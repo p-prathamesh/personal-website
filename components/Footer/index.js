@@ -14,14 +14,17 @@ export default function FooterComponent() {
                   Powered by{" "}
                   <a
                     rel="noreferrer"
-                    
                     target="_blank"
                     href="https://vercel.com/"
                   >
                     Vercel
                   </a>{" "}
                   and{" "}
-                  <a rel="noreferrer" target="_blank" href="https://nextjs.org/">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://nextjs.org/"
+                  >
                     Next.js
                   </a>
                 </li>

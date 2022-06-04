@@ -31,11 +31,7 @@ export default function index() {
                 </ul>
                 <h2 id="contact">Contact</h2>
                 <p>
-                  <a
-                    href="mailto:pawarprathamesh8655@gmail.com"
-                  >
-                    Contact me
-                  </a>{" "}
+                  <a href="mailto:pawarprathamesh8655@gmail.com">Contact me</a>{" "}
                   if you have any questions.
                 </p>
                 <p>
