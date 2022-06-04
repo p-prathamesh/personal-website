@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.header-bar {
+  background:linear-gradient(135deg, #14ffe9,#ffeb3b,#ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 2.5s linear infinite;
+
+  border-top: 4px solid;
+  border-image-source: linear-gradient(90deg, #10a2f5, #eb4888 50%, #24d05a, #e9bc3f, #d32e9d);
+  border-image-slice: 1;
+
+}
+  
+@keyframes animate{
+  100%{
+      filter: hue-rotate(360deg);
+  }
+}
