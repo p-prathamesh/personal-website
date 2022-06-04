@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styles from "./Footer.module.css";
 
@@ -29,7 +30,7 @@ export default function FooterComponent() {
             <div className="col-lg-4 order-first order-lg-last text-lg-end">
               <ul className="list-inline">
                 <li className="list-inline-item">
-                  <a href="#">Privacy</a>
+                  <Link href="/privacy-policy">Privacy</Link>
                 </li>
               </ul>
             </div>
