@@ -1,0 +1,27 @@
+.footer {
+  border-top: 1px solid #e9ecef;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+}
+
+.muted {
+  color: #6c757d !important;
+}
+
+.footer li {
+  letter-spacing: 0.5px;
+  font-size: .875rem;
+  margin-bottom: 0;
+}
+
+.footer li a {
+  color: rgb(16, 162, 245);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer li {
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+  }
+}
