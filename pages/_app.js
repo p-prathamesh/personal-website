@@ -1,10 +1,10 @@
-import React, { useEffect }  from 'react';
-import { useRouter } from 'next/router';
+import React, {useEffect} from "react";
+import {useRouter} from "next/router";
 import * as ga from "../lib/ga";
-import 'bootstrap/dist/css/bootstrap.css'
-import '../styles/globals.css'
+import "bootstrap/dist/css/bootstrap.css";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({Component, pageProps}) {
   const router = useRouter();
 
   useEffect(() => {
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
