@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from './Profile.module.css';
+import Styles from "./Profile.module.css";
 
 export default function ProfileComponent() {
   return (
@@ -12,9 +12,7 @@ export default function ProfileComponent() {
                 <h1 className="mt-0">Prathamesh Pawar</h1>
                 <p className="lead">Front End Engineer in Mumbai.</p>
               </div>
-              <div
-                className={`col-lg-4 text-center`}
-              >
+              <div className={`col-lg-4 text-center`}>
                 <img
                   src="https://vipinyadav.com/pp2.jpg"
                   alt="Picture of Prathamesh Pawar"

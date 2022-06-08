@@ -9,14 +9,33 @@ export default function BodyComponent() {
         <div className="row justify-content-center">
           <div className="col-lg-10 mb-4">
             <p>
-              <a className="social-1" href="https://twitter.com/pathu0704">Twitter</a> &nbsp;
-              <a className="social-2" href="https://github.com/p-prathamesh">Github</a> &nbsp;
-              <a className="social-3" href="https://www.linkedin.com/in/prathamesh-pawar-ab3341119/">LinkedIn</a> &nbsp;
-              <a className="social-4" href="https://www.instagram.com/technodiscussion/">Instagram</a> &nbsp;
+              <a className="social-1" href="https://twitter.com/pathu0704">
+                Twitter
+              </a>{" "}
+              &nbsp;
+              <a className="social-2" href="https://github.com/p-prathamesh">
+                Github
+              </a>{" "}
+              &nbsp;
+              <a
+                className="social-3"
+                href="https://www.linkedin.com/in/prathamesh-pawar-ab3341119/"
+              >
+                LinkedIn
+              </a>{" "}
+              &nbsp;
+              <a
+                className="social-4"
+                href="https://www.instagram.com/technodiscussion/"
+              >
+                Instagram
+              </a>{" "}
+              &nbsp;
             </p>
 
             <p>
-              Hi there! My name is Prathamesh. I'm a Front End Engineer. I often make small but super useful automation scripts for web.
+              Hi there! My name is Prathamesh. I'm a Front End Engineer. I often
+              make small but super useful automation scripts for web.
             </p>
             <p>
               I've 3+ years of experience in building tech products that served
@@ -37,7 +56,8 @@ export default function BodyComponent() {
               through the power of web.
             </p>
             <p>
-              Feel free to <a href="mailto:pawarprathamesh8655@gmail.com">email me</a>{" "}
+              Feel free to{" "}
+              <a href="mailto:pawarprathamesh8655@gmail.com">email me</a>{" "}
               <img
                 src="favicon.ico"
                 width="24px"

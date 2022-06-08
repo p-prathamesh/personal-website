@@ -14,26 +14,29 @@ export default function FooterComponent() {
                   Powered by{" "}
                   <a
                     rel="noreferrer"
-                    
                     target="_blank"
-                    href="https://www.netlify.com/"
+                    href="https://vercel.com/"
                   >
-                    Netlify
+                    Vercel
                   </a>{" "}
                   and{" "}
-                  <a rel="noreferrer" target="_blank" href="https://nextjs.org/">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://nextjs.org/"
+                  >
                     Next.js
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="col-lg-4 order-first order-lg-last text-lg-end">
+            {/* <div className="col-lg-4 order-first order-lg-last text-lg-end">
               <ul className="list-inline">
                 <li className="list-inline-item">
                   <Link href="/privacy-policy">Privacy</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
