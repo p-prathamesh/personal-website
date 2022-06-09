@@ -57,7 +57,7 @@ export default function BodyComponent() {
             </p>
             <p>
               Feel free to{" "}
-              <a href="mailto:pawarprathamesh8655@gmail.com">email me</a>{" "}
+              <a className="connect" href="mailto:pawarprathamesh8655@gmail.com">email me</a>{" "}
               <img
                 src="favicon.ico"
                 width="24px"

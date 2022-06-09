@@ -6,7 +6,7 @@ export default function index() {
   return (
     <React.Fragment>
       <header
-        className={`navbar ${styles.header} fixed-top navbar-expand-md navbar-light`}
+        className={`navbar ${styles.header} navbar-expand-md navbar-light`}
       >
         <div className="container">
           <Link
