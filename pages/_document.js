@@ -22,6 +22,10 @@ export default function MyDocument() {
         `,
           }}
         />
+         <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADS}`}
+        />
       </Head>
       <body>
         <Main />
