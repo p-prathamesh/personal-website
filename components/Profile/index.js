@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Avatar from "../../assets/pp2.jpg";
 import Styles from "./Profile.module.css";
 
 export default function ProfileComponent() {
@@ -13,8 +15,8 @@ export default function ProfileComponent() {
                 <p className="lead">Front End Engineer in Mumbai.</p>
               </div>
               <div className={`col-lg-4 text-center`}>
-                <img
-                  src="https://vipinyadav.com/pp2.jpg"
+                <Image
+                  src={Avatar}
                   alt="Picture of Prathamesh Pawar"
                   width="234px"
                   height="234px"

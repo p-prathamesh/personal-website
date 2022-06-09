@@ -79,3 +79,7 @@ a {
     -webkit-filter: hue-rotate(360deg);
   }
 }
+
+.connect {
+  color: rgb(245, 16, 16);
+}

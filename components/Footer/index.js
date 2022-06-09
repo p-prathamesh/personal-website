@@ -30,13 +30,13 @@ export default function FooterComponent() {
                 </li>
               </ul>
             </div>
-            {/* <div className="col-lg-4 order-first order-lg-last text-lg-end">
+            <div className="col-lg-4 order-first order-lg-last text-lg-end">
               <ul className="list-inline">
                 <li className="list-inline-item">
                   <Link href="/privacy-policy">Privacy</Link>
                 </li>
               </ul>
-            </div> */}
+            </div>
           </div>
         </div>
       </footer>
